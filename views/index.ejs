@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+      <script src="/javascripts/libs/angular.js"></script>
+  </head>
+  <body ng-app>
+      <div>
+          <input type="text" placeholder="test" ng-model="name" />
+      </div>
+      <div><%= title %>:{{name}}</div>
+  <script>
+      function clickController($scope){
+          $scope.name = 'xf.jiang';
+      }
+  </script>
+  </body>
+</html>

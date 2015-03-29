@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>test</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <input type="text" ng-model="name_input" placeholder="test">
+    <div>
+        name:{{name_input}}
+    </div>
+    <ul>
+        <li><a href="#/view1">view1</a></li>
+        <li><a href="#/view2">view2</a></li>
+    </ul>
+    <div ng-view="">
+
+    </div>
+<script src="./javascripts/libs/require.js" data-main="./main.js"></script>
+</body>
+</html>
