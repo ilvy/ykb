@@ -11,7 +11,8 @@ requirejs.config({
         routes:'routes',
         app:'../app',
         boot:'boot',
-        domReady:'libs/requirejs-domready'
+        domReady:'libs/requirejs-domready',
+        routeConfig:'routeConfig'
     },
     shim:{
         angular:{exports:'angular'},
